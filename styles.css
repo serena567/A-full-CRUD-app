@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button, input, textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+/* New styling for the user list */
+#user-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#user-list li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    flex-direction: column; /* Allow vertical stacking */
+    justify-content: space-between; /* Push the button to the bottom */
+    text-align: left; /* Align text to the left */
+    height: 200px; /* Set a height to ensure there is enough space for the button */
+}
+
+#user-list button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-start; /* Align the button to the left */
+}
+
+#user-list button:hover {
+    background-color: darkgreen;
+}
+button {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(94, 149, 204);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(43, 116, 189);
+}
